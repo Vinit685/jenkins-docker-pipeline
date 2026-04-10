@@ -91,7 +91,7 @@ sudo systemctl restart jenkins
 ```
 
 ### Step 2 — Create Jenkins Pipeline Job
-1. Open Jenkins at `http://<your-ec2-ip>:8080`
+1. Open Jenkins at `http://<EC2-PUBLIC-IP>:8080`
 2. Click **New Item** → Select **Pipeline**
 3. Under Pipeline section select **Pipeline script**
 4. Paste the Jenkinsfile content
@@ -100,7 +100,7 @@ sudo systemctl restart jenkins
 ### Step 3 — Trigger the Pipeline
 1. Click **Build Now**
 2. Watch the pipeline execute all 3 stages
-3. Access the app at `http://<your-ec2-ip>:8082`
+3. Access the app at `http://<EC2-PUBLIC-IP>:8082`
 
 ---
 
