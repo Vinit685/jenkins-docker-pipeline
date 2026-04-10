@@ -106,11 +106,14 @@ sudo systemctl restart jenkins
 
 ## 📸 Screenshots
 
-### ✅ Pipeline Success
-![Pipeline Success](screenshots/pipeline-success.png)
+### ✅ Pipeline Stages
+![Pipeline Stages](docs/pipeline-stages.png)
 
 ### ✅ Finished: SUCCESS
-![Console Output](screenshots/console-output.png)
+![Console Output](docs/console-output.png)
+
+### ✅ App Running in Browser
+![Browser](docs/browser-output.png)
 
 ---
 
@@ -121,12 +124,3 @@ sudo systemctl restart jenkins
 - Building and running Docker containers via Jenkins pipeline
 - Debugging real-world CI/CD errors (permission denied on Docker socket)
 - Running Jenkins and Docker on AWS EC2
-
----
-
-## 👨‍💻 Author
-
-**Vinit Suryavanshi**
-- 📧 vinitpd10@gmail.com
-- 🔗 [LinkedIn](https://linkedin.com/in/vinit-suryavanshi-241b66291)
-- 🐙 [GitHub](https://github.com/Vinit685)
