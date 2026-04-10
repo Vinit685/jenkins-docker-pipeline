@@ -18,7 +18,7 @@ pipeline {
             steps {
                 sh 'docker stop jenkins-docker-app || true'
                 sh 'docker rm jenkins-docker-app || true'
-                sh 'docker run -d -p 8081:80 --name jenkins-docker-app jenkins-docker-app'
+                sh 'docker run -d -p 8082:80 --name jenkins-docker-app jenkins-docker-app'
             }
         }
     }
